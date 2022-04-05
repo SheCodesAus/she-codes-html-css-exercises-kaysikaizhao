@@ -1,0 +1,33 @@
+
+body {
+    background-color: lavender;
+}
+
+div {
+    background-color: peachpuff;
+}
+/* this is overrided by the below #div-id as id has a higher specification */
+
+.list-item {
+    background-color: green;
+}
+
+.main-heading {
+    background-color: skyblue;
+}
+
+#first-paragraph {
+    background-color: lightcoral;
+}
+
+.nav-item {
+    background-color: mediumpurple;
+}
+
+.the-last-nav-item {
+    background-color: gold;
+}
+
+#div-id {
+    background-color:mediumvioletred;
+}

@@ -2,6 +2,10 @@
 /* #fda103 6b469a */
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/* * {
+    border: red solid 1px;
+ } */
+
 html {
     font-family: 'Raleway', sans-serif;
     background-color: #fff;
@@ -49,6 +53,7 @@ a:hover {
 
 div {
     padding: 10px;
+    margin: 20px;
 }
 
 img {

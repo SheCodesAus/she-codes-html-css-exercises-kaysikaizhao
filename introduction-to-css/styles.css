@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto+Slab&display=swap');
 
 html {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Robooto Slab', sans-serif;
     background-color: #fff;
 }
 
@@ -12,7 +12,9 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-size:20px;
 }
 
 h1 {
@@ -31,6 +33,7 @@ nav {
     margin: 10px;
     padding: 10px;
     background-color: #999999;
+    width: 200px;
 }
 
 a {
@@ -38,6 +41,12 @@ a {
     text-decoration: none;
     padding: 5px;
 }
+
+nav a {
+    display: block;
+}
+
+/* this is specific to the a within nav */
 
 a:hover {
     color: #fda103;
@@ -63,4 +72,10 @@ footer {
     color: #fff;
 }
 
-/* Your code here */
+/* Challenge */
+
+#homepage-image {
+    width: 300px;
+    height: 200px;
+    border: 3px dashed orange;
+}
